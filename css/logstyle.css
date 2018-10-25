@@ -1,0 +1,150 @@
+body{
+    background-color: #5FCC9C;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+    direction: ltr;
+}
+/*====== Start SigIn ======*/
+.signin{
+    background: #215B63;
+    color:#fff;
+    padding: 7px 10px;
+    overflow: hidden;
+}
+.signin .logo{
+    float: left;
+    width: 40%;
+    text-align: center;
+}
+.signin .logo h2{
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+.signin .logo h2 span{letter-spacing: -2px;}
+.signin .frm{
+    float: right;
+    margin-right: 94px;
+    margin-top: 11px;
+}
+.signin .frm input{
+    float: left;
+    display: inline-block;
+    margin-right: 10px;
+    padding: 9px 11px;
+    border: none;
+    outline: 0;
+    border-radius: 3px;
+    width: 30%;
+    color:#000;
+}
+.signin .frm input[type=submit]{
+    color: #fff;
+    padding: 8px 18px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #2098b3;
+    cursor: pointer;
+    width: 19%;
+}
+.signin .frm input[type=submit]:hover{
+    background:#21abca;
+}
+/*====== End SigIn ======*/
+.signup{
+    width: 650px;
+    margin: 80px auto;
+    background-color: #FFF;
+    padding: 0 35px;
+    border-radius: 5px;
+    overflow: hidden;
+    
+}
+.signup form{
+    display: flex;
+    flex-direction: column;
+}
+.signup > h1{
+    text-align: center;
+    font-size: 33px;
+    color: #757575;
+    font-weight: 300;
+}
+.signup > input{
+    display: block;
+}
+
+.signup .row input,
+.signup .row input{
+    float: left;
+    width: 43%;
+    margin-left: 8px;
+}
+.signup input{
+    height: 50px;
+    display: block;
+    padding: 10px 10px 0px 10px;
+    border: none;
+    border-bottom: 2px solid #ebebeb;
+    margin-left: 9px;
+    margin-top: 10px;
+    width: 257px;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.signup input:hover{
+    border-bottom-color: #dcdcdc;
+}
+.signup input:focus{
+    outline: none;
+    border-bottom-color: #58c791;
+}
+.signup input[type=submit]{
+    position: relative;
+    margin: 37px auto;
+    position: relative;
+    height: 50px;
+    display: block;
+    border-radius:5px;
+    border: none;
+    background-color: #58c791;
+    color:#fff;
+    font-size: 23px;
+    padding: 0;
+    box-shadow: 0 5px 0 #3aad73;
+}
+.signup input[type=submit]:hover{
+    top: 2px;
+    box-shadow: 0 3px 0 #3aad73;
+    cursor: pointer;
+}
+.signup input[type=submit]:active{
+    top:5px;
+    box-shadow: none;
+}
+/*====== Start Footer ======*/
+
+footer{
+    background-color: #215B63;
+    text-align: center;
+    padding: 10px;
+    color:#fff;
+}
+
+/*====== End Footer ======*/
+
+.validate .fa-check{
+    color: #1fb522;
+    text-shadow: 0px 0px 9px #0F0;
+}
+.validate .fa-times{
+    color: red;
+    text-shadow: 0 0 9px;
+}
+.validate .fa{
+    display: none;
+    position: relative;
+    right: -37px;
+    top: 32px;
+    font-size: 26px;
+}
